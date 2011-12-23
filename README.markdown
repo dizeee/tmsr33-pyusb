@@ -17,6 +17,7 @@ Read a complete description of his example program on
 [my blog](http://www.micahcarrick.com/credit-card-reader-pyusb.html)
 
 TODO:
-* keep backward compatibility
-* make a function that extracts bank data information, the same way forked code does
+
+ * keep backward compatibility
+ * make a function that extracts bank data information, the same way forked code does
 
