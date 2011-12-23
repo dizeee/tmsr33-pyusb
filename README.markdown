@@ -14,7 +14,7 @@ string. Blog post explaining what I've done is to come.
 
 This code is forked from [the code written by MicahCarrick](https://github.com/MicahCarrick/magtek-pyusb).
 Read a complete description of his example program on 
-[my blog](http://www.micahcarrick.com/credit-card-reader-pyusb.html)
+[his blog](http://www.micahcarrick.com/credit-card-reader-pyusb.html)
 
 TODO:
 
