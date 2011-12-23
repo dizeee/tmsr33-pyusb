@@ -1,9 +1,19 @@
-MagTek Credit Card Reader in Linux
-==================================
+TMSR33 Magnetic Card Reader in Linux
+====================================
 
-This code was written for MagTek USB Swipe Readers part numbers are 21040101, 
-21040102, 21040103, 21040104, 21040113, 21040114, 21040119, 21040139, and 
-21040143. You can find this part number on the bottom of the device.
+The [T-MSR-33](http://www.barcode-manufacturer.com/magnetic_card/portable_magstripe/magnetic_card_reader_specification.html) magnetic card reader
+is a cheap unit easily found that exists in USB, PS2 and TTL version. This
+code makes support for the USB version of that device using pyusb and libusb.
+Though, it shall work with most devices that "acts like a keyboard" out of the 
+box.
 
-Read a complete description of this example program on 
+This version of the code does not include Credit Card data extraction,
+but implements recognition of Magnetic Card readers that act like HID
+USB Keyboards, and thus retrieves the keycodes and returns an exploitable
+string. Blog post explaining what I've done is to come.
+
+This code is forked from [the code written by MicahCarrick](https://github.com/MicahCarrick/magtek-pyusb).
+Read a complete description of his example program on 
 [my blog](http://www.micahcarrick.com/credit-card-reader-pyusb.html)
+
+
